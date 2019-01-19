@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>ESBEE Couplings</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta">
+<style>
+body,h1,h4,h5 {font-family: "Montserrat", sans-serif; color:#30715f;}
+h3 {font-family: "Montserrat", sans-serif; color:#2A130B;}
+h2 {font-family: "Mukta", sans-serif; font-size: 30px;}
+body {font-size:16px;color:black;text-align: "justify"}
+element.style {
+    width: 50px;
+    border: 5px solid #30715f;
+}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.w3-red, .w3-hover-red:hover {
+    color: #fff!important;
+    background-color: #30715f!important;
+}
+.w3-text-red, .w3-hover-text-red:hover {
+    color: #30715f!important;
+}
+.w3-text-brown{
+    font-family: "Montserrat", sans-serif;
+    color: #2A130B
+}
+.w3-row-padding-ex{
+      padding: 10px 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30 30px;
+}
+
+.row img {
+  margin-top: 14px;
+  margin-right: 14px;
+  vertical-align: middle;
+  border:1px solid black
+}
+
+.container {
+  position: relative;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2e2f2f;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.bottompara-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000099;
+}
+
+.bottompara-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: #003366;
+}
+
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h2 class="w3-padding-64"><b>ESBEE<br>Couplings</b></h2>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#products" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Products</a> 
+    <a href="#development" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Development</a> 
+    <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Service</a> 
+    <a href="#aboutus" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="home">
+    <h1 class="w3-jumbo"><b>Home</b></h1>
+    <h2 class="w3-text-brown"><b>Introduction</b></h2>
+    <!-- <hr style="width:50px;border:5px solid  #30715f" class="w3-round"> -->
+    <p style="text-align: justify">Please note that ESBI is no longer known as "ESBI-VULKAN". ESBI no more manufacture VULKAN branded coupling or VULKAN Spares. According to "Global Settlement Agreement" between VULKAN KUPPLUNGS -und GETRIEBEBAU Bernhard Hackforth GmbH & Co. KG / Germany and ESBI and others, we no more produce VULKAN EZ spares or VULKAN EZS spares or VULKAN EZR spare, neither we use the code no. of series EZ, EZS and EZR. We do have alternative code nos. of our products, which carry the brand "ESBI" only.</p>
+    <p style="text-align: justify">ESBI Highly Flexible Couplings have been successful in the field of Power transmission since the early 1970's. Primarily, the success story is ascribed to the torque-transmitting element; a pair of identical rubber diaphragms, reinforced with fabric plies and steel laminations to produce flexibility and durability for optimum torque transmission. </p>
+    <p style="text-align: justify">ESBI has references, all over the world, that they have been successful in supplying the highly flexible couplings & spare rubber elements in marine main propulsion drives, generator drives and auxiliary drives. Our in-house test facilities shall prove that quality of our products is at par with German manufacturers and we do give warranty for supply of spares also.</p>
+
+    <h2 class="w3-text-brown"><b>Salient Features</b></h2>
+    <ul class="unlst" style="padding-left:42px;padding-right:76px;">
+        <li><p>Multidirectional flexibility</p></li>
+        
+        <li><p>High damping characteristics.</p></li>
+        
+        <li><p>Low dynamic torsional stiffness resulting in low natural frequency of the drive system thus keeping the critical speeds below the operation speeds</p></li>
+        
+        <li><p>Rupture Torque is about 6 to 9 times the nominal torque</p></li>
+        <li><p>Needs no lubrication</p></li>
+        <li><p>Torque range from 22Kgm to 30,700Kgm.</p></li>
+    </ul>
+
+    <h2 class="w3-text-brown"><b>Applications</b></h2>
+    <p  style="text-align: justify">ESBI's enormous reference list on Highly Flexible Couplings includes Marine Main Propulsion, Diesel Driven Generators, Pumps and compressors, arduous applications in Cement & Steel Plants, Paper & Sugar Mills, Textiles & Chemical Industries, Oil Refineries, Locomotive Drives, etc. </p>
+
+    In India, ESBI Highly Flexible Couplings are established with O. E. Manufacturers like :
+
+    <!-- Photo Grid -->
+    <div class="row"> 
+      <div class="row">
+        <img src="images/logos/Atlas_Copco_logo.png" style="width:120px; height:120px">
+        <img src="images/logos/Detroit_Diesel_logo.jpg" style="width:120px; height:120px">
+        <img src="images/logos/Pielstick_logo.jpg" style="width:120px; height:120px">
+        <img src="images/logos/CAT_logo.png " style="width:120px; height:120px">
+        <img src="images/logos/ELGI_logo.png " style="width:120px; height:120px">
+        <img src="images/logos/Sulzar_logo.gif" style="width:120px; height:120px">
+        <img src="images/logos/Cummins_logo.png" style="width:120px; height:120px">
+      </div>
+      <div class="row">
+        <img src="images/logos/Greaves_logo.jpeg" style="width:120px; height:120px">
+        <img src="images/logos/Wartsila_logo.png" style="width:120px; height:120px">
+        <img src="images/logos/DOOSAN_logo.png" style="width:120px; height:120px">
+        <img src="images/logos/MAN_logo.trans" style="width:120px; height:120px">
+        <img src="images/logos/DUETZ_logo.png " style="width:120px; height:120px">
+        <img src="images/logos/MWM_logo.svg.png" style="width:120px; height:120px">
+        <img src="images/logos/kirloskar_logo.gif" style="width:120px; height:120px">
+        
+      </div>  
+    </div>
+
+  </div>
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="products">
+    <h1 class="w3-jumbo"><b>Products</b></h1>
+    <!-- <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1> -->
+    <!-- <hr style="width:50px;border:5px solid  #30715f" class="w3-round"> -->
+  </div>
+  
+
+  <!-- Photo grid (modal) -->
+  <div class="row">
+      <a class="w3-third container" href="products/hfc.html">
+        <img src="images/product1.png" style="width:100%" alt="Product-1">
+        <div class="overlay">
+          <div class="text">Highly Flexible Diaphragm Couplings</div>
+        </div>
+      </a>
+      <a class="w3-third container" href="products/hfc-spares.html">
+        <img src="images/product2.png" style="width:100%" alt="Product-1">
+        <div class="overlay">
+          <div class="text">Spare Reinforced Rubber Elements</div>
+        </div>
+      </a>
+      <a class="w3-third container" href="products/blockflex.html">
+        <img src="images/product2.png" style="width:100%" alt="Product-1">
+        <div class="overlay">
+          <div class="text">Blockflex Coupling</div>
+        </div>
+      </a>
+      <a class="w3-third container" href="products/plugflex.html">
+        <img src="images/product1.png" style="width:100%" alt="Product-1">
+        <div class="overlay">
+          <div class="text">Plugflex Coupling</div>
+        </div>
+      </a>
+      <a class="w3-third container" href="products/splitflex.html">
+        <img src="images/product2.png" style="width:100%" alt="Product-1">
+        <div class="overlay">
+          <div class="text">Splitflex Couplings and Spares</div>
+        </div>
+      </a>
+      <a class="w3-third container" href="products/windflex.html">
+        <img src="images/product1.png" style="width:100%" alt="Product-1">
+        <div class="overlay">
+          <div class="text">Windflex Coupling</div>
+        </div>
+      </a>
+      <a class="w3-third container" href="products/shankar.html">
+        <img src="images/product2.png" style="width:100%" alt="Product-1">
+        <div class="overlay">
+          <div class="text">Shankar Flexible Elastomeric Couplings</div>
+        </div>
+      </a>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="development" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Development</b></h1>
+    <h2 class="w3-text-brown"><b>Disclaimer</b></h2>
+
+    <p style="text-align: justify">Vulkan's RATO-S coupling resembles to ESBI "VAROFLEX" Coupling but PLEASE NOTE that ESBI does NOT manufacture under any license or technical support from M/S, Vulkan Kupplungs und Getriebebau & B Hackforth GmbH & Co Kg, Germany or any of their associate Companies.</p>
+
+    <h2 class="w3-text-brown"><b>Varoflex Coupling & Spares</b></h2>
+    <p style="text-align: justify">Varoflex Coupling equivalent and interchangeable with RATO-S Coupling, was developed by ESBI with direct support from TATA, a renowned group of industries, in India and around the world. Such RATO-S coupling manufactured by Vulkan Kupplungs, Germany was IMPORTED and fitted with WARTSILA Diesel Engine Model 18V46. We are obliged to TATA for providing the scope and support encouraging ESBI's R&D; to achieve an import substitution. Tata's stringent quality checking parameters and rigorous testing in the practical applications was great encouragement and impetus to ESBI's technical team which achieved the success story.</p>
+
+    <p style="text-align: justify"> Since the RATO-S Coupling and spares are not covered under any Indian Patent laws, we are continuously developing and manufacturing the same with our own Research and Development and our registered Brand name is "VAROFLEX". ESBI's Varoflex is developed with 100% indigenous resources, technologies under ESBI'S own "R&D;" and spontaneous customers support.</p>
+
+    <h2 class="w3-text-brown"><b>Varoflex Spare (Rubber Segment)</b></h2>
+    <p style="text-align: justify">First prototype replacement of such RATO-S Coupling Spare Size V- 582 were developed and supplied to TATA during the year 2009. Since then, TATA being a satisfied customer, ESBI enjoyed regular support and repeat orders for replacing all such imported RATO-S Couplings with ESBI VAROFLEX spares.</p>
+
+    <p style="text-align: justify">ESBI also successfully replaced RATO-S Coupling spares with indigenously manufactured VAROFLEX spares, installed in Marine Main Propulsion applications.</p>
+
+    <h2 class="w3-text-brown"><b>Hytrex Coupling</b></h2>
+
+    <p style="text-align: justify">Another success story that replaces thousands of KTR Brand FLE-PA Couplings :- ESBI's Hytrex Couplings, 100% indigenously developed, replacing KTR, FLE-PA Couplings, imported in India. Customers like Larsen & Toubro, Telcon, Greaves etc. were of great support to develop such import substitution with their orders replacing KTR FLE-PA Coupling spares, in India.</p>
+
+    <p style="text-align: justify">The Disc being the only replaceable material, ESBI has used Hytrex Polymer with higher physical strength and temperature durability. Flange dimensions are according to SAE-J620 to replace existing installation of KTR, as desired by various customers from time to time.</p>
+
+
+
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="service" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Service</b></h1>
+    <!-- <hr style="width:50px;border:5px solid #30715f" class="w3-round"> -->
+    
+    <p>ESBI products are designed and manufactured with updated technical standard to meet customer requirements. ESBI products are maintenance free. To help our customer for Supervision of Installation, replacement of Rubber Element & Health check-up - our Service Team with qualified Engineers are always ready to run your system smoothly. This assures a prompt continuation of your production. We extend this service with a nominal service cost.
+    </p>
+    <p><b>Our service activites are rare!</b>:</p>
+
+    <p><b>Reliability:</b> From installation to commissioning and trial runs, we endeavour to establish your trust on us.</p>
+
+    <p><b>Assurance:</b> Developing a strong support system, we set up easy maintenance & staff training centres, which ensures to eradicate customer anxiety.</p>
+
+    <p><b>Responsibility:</b> We are constantly remind at our responsibilities through periodical customer visits and close interaction to determine their exact needs.</p>
+
+    <p><b>Empathy:</b> At times teething trouble is expected, but regular product health check-ups, has helped to prevent premature failures.</p>
+  </div>
+
+  
+
+  
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact</b></h1>
+    <!-- <hr style="width:50px;border:5px solid  #30715f" class="w3-round"> -->
+    
+      <p class="bottompara-heading" style="letter-spacing:7;padding:0px;margin:0px;">ESBEE Couplings Private Limited</p>
+      <p class="bottompara-text" style="letter-spacing:1;padding:0px;margin:8px;"><b>Regd. Office :</b> 8 Camac Street (6th floor), Kolkata - 700 017<br>
+      <b>Phone :</b> 2282 3520/4844 <b>Fax :</b> 91 033 22829100 <b>cable :</b> ESBICOUP<br>
+      For further informations, please email us at : <span style="color:#990000;">corporate@esbi.info</span></p>
+      <br>
+      
+  </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
